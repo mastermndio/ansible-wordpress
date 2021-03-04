@@ -1,0 +1,8 @@
+[webservers]
+123.141.5415.15.1
+
+[all:vars]
+ansible_connection=ssh
+ansible_user=vagrant
+ansible_ssh_pass=vagrant
+ansible_ssh_private_key_file: ~/home/abrooks/awsd.pem

@@ -1,0 +1,15 @@
+#System Settings
+php_modules: ['php-curl', 'php-gd', 'php-mbstring', 'php-xml', 'php-xmlrpc', 'php-soap', 'php-intl', 'php-zip'  ] 
+lamp_packages: [ 'apache2', 'mysql-server', 'python3-pymysql', 'php', 'php-mysql', 'libapache2-mod-php' ]
+
+#MySQL Settings
+mysql_root_password: "mysql_root_password"
+mysql_db: "wp_db"
+mysql_user: "wp_user"
+mysql_password: "wp_password"
+
+#HTTP Settings
+http_host: "wordpress.com"
+http_conf: "your_domain.conf"
+http_port: "80"
+
